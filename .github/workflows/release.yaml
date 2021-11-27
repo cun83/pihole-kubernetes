@@ -6,6 +6,7 @@ on:
       - master
     paths:
     - 'charts/pihole/**'
+    - '.git/workflows/**'
     - '**/README.md'
     - '!**/README.md.gotmpl'
 
@@ -36,4 +37,4 @@ jobs:
         with:
           charts_repo_url: https://cun83.github.io/pihole-kubernetes/
         env:
-          CR_TOKEN: "${{ secrets.CR_TOKEN }}"
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
