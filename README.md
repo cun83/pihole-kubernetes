@@ -12,16 +12,16 @@ Further documentation including chart keys, types, and default values is at http
 To install the repo just run:
 
 ```bash
-helm repo add mojo2600 https://mojo2600.github.io/pihole-kubernetes/
+helm repo add cun83-pihole https://cun83.github.io/pihole-kubernetes/
 helm repo update
 ```
 
 ### Helm Charts
 
-* [pihole](https://mojo2600.github.io/pihole-kubernetes)
+* [pihole](https://pihole.github.io/pihole-kubernetes)
 
   ```bash
-  helm install your-release mojo2600/pihole
+  helm install your-release pihole/pihole
   ```
   
 
