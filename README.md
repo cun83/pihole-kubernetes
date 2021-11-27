@@ -3,6 +3,6 @@
 ## Installation
 
 ```console
-helm repo add mojo2600 https://mojo2600.github.io/pihole-kubernetes/
-helm upgrade -i pihole mojo2600/pihole -f values.yaml
+helm repo add cun83-pihole https://cun83.github.io/pihole-kubernetes/
+helm upgrade -i pihole chun83-pihole/pihole -f values.yaml
 ```
